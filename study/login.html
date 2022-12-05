@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户管理系统登录</title>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <script src="lib/jquery-3.1.1.min.js"></script>
+    <script src="lib/bootstrap/bootstrap.min.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body>
+    <div id="loginArea">
+        <div id="loginBanner">
+            <div id="loginTitle" class="col-md-8" >用户管理系统</div>
+            <div id="loginDiv" class="col-md-4" >
+                <div id="loginPanel">
+                    <span>用户名称：</span><input class="text" type="text"><br><br>
+                    <span>用户密码：</span><input class="text" type="password"><br><br>
+                    <span>验&nbsp;&nbsp;证&nbsp;&nbsp;码：</span><input type="text" style="width:70px;height: 25px; ">&nbsp;&nbsp;
+                    <canvas id="canvas" onclick="dj()" style="border: 1px solid #ccc;border-radius: 5px;background-color: rgb(194, 191, 191);"></canvas><br><br><br><br>
+                    <input type="button" class="btn btn-info" value="登录">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
